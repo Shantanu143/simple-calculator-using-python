@@ -26,32 +26,32 @@ input_conditon = int(input("Enter conditon = "))
 
 if input_conditon == 1:
     print("*******************************************")
-    print("Addition", num1, "+", num2, "=", num2+num2)
+    print("Addition", num1, "+", num2, "=", num1+num2)
     print("*******************************************")
 
 if input_conditon == 2:
     print("*******************************************")
-    print("Subtration", num1, "-", num2, "=", num2-num2)
+    print("Subtration", num1, "-", num2, "=", num1-num2)
     print("*******************************************")
 
 if input_conditon == 3:
     print("*******************************************")
-    print("Multiplication", num1, "*", num2, "=", num2*num2)
+    print("Multiplication", num1, "*", num2, "=", num1*num2)
     print("*******************************************")
 
 if input_conditon == 4:
     print("*******************************************")
-    print("Division", num1, "/", num2, "=", num2/num2)
+    print("Division", num1, "/", num2, "=", num1/num2)
     print("*******************************************")
 
 if input_conditon == 5:
     print("*******************************************")
-    print("Modulous", num1, "%", num2, "=", num2 % num2)
+    print("Modulous", num1, "%", num2, "=", num1 % num2)
     print("*******************************************")
 
 if input_conditon == 6:
     print("*******************************************")
-    print("Expontial", num1, "**", num2, "=", num2**num2)
+    print("Expontial", num1, "**", num2, "=", num1**num2)
     print("*******************************************")
 
 if input_conditon > 6:
